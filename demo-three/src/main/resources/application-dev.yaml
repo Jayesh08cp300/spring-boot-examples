@@ -1,5 +1,7 @@
 spring:
   application:
     name: demo-three
+  datasource:
+    password: ENC("/zA/T0JOhgQrCIzvmXa6xft5UI62xY+v")
 server:
   port: 9191
