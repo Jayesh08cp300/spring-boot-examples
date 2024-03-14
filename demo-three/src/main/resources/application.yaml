@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: demo-three
+server:
+  port: 9090

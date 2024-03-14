@@ -14,6 +14,7 @@
     <modules>
         <module>demo-one</module>
         <module>demo-two</module>
+        <module>demo-three</module>
     </modules>
 
     <artifactId>demo</artifactId>
