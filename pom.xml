@@ -15,6 +15,9 @@
         <module>demo-one</module>
         <module>demo-two</module>
         <module>demo-three</module>
+        <module>demo-four</module>
+        <module>demo-five</module>
+        <module>excel-to-db</module>
     </modules>
 
     <artifactId>demo</artifactId>
