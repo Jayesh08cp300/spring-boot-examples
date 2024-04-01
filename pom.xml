@@ -18,6 +18,7 @@
         <module>ehcache-example</module>
         <module>aop-example</module>
         <module>excel-to-db</module>
+        <module>actuator-example</module>
     </modules>
 
     <artifactId>spring-boot-examples</artifactId>
