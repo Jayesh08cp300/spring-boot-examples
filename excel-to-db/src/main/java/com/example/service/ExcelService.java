@@ -47,13 +47,16 @@ public class ExcelService {
 
 						if (0 == columnIndex) {
 							flag_0 = true;
-							taxData.setJurisdiction(cell.getStringCellValue().trim());
+							taxData.setJurisdiction(cell.getStringCellValue()
+									.trim());
 						} else if (3 == columnIndex) {
 							flag_3 = true;
-							taxData.setItemGroupCode(cell.getStringCellValue().trim());
+							taxData.setItemGroupCode(cell.getStringCellValue()
+									.trim());
 						} else if (7 == columnIndex) {
 							flag_7 = true;
-							taxData.setTaxRateCode(String.valueOf(cell.getNumericCellValue()).trim());
+							taxData.setTaxRateCode(String.valueOf(Double.valueOf(cell.getNumericCellValue())
+									.intValue()));
 						}
 
 						if (flag_0 && flag_3 && flag_7) {
